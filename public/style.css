@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f5f6fa;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;background:#1f2937;color:#fff;padding:12px 24px;flex-wrap:wrap;gap:8px}
+header h1{margin:0;font-size:22px;cursor:pointer}nav button{margin-left:6px}
+main{max-width:1000px;margin:20px auto;padding:0 16px}
+button{background:#2563eb;color:#fff;border:0;padding:8px 14px;border-radius:6px;cursor:pointer}
+button.alt{background:#6b7280}button.danger{background:#dc2626}button:hover{opacity:.9}
+input,select,textarea{padding:8px;border:1px solid #ccc;border-radius:6px;width:100%;margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card,.box{background:#fff;border-radius:10px;padding:14px;box-shadow:0 1px 4px #0002}
+.card img{width:100%;height:150px;object-fit:cover;border-radius:6px;background:#ddd}
+.price{font-weight:700;color:#059669}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.toolbar{display:flex;gap:8px;margin-bottom:16px}.toolbar input,.toolbar select{width:auto;flex:1}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.form{max-width:380px;margin:auto}.msg{color:#dc2626;margin:6px 0}
+.badge{padding:2px 8px;border-radius:10px;background:#e5e7eb;font-size:12px}
